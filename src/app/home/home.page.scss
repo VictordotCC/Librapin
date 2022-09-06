@@ -1,40 +1,56 @@
-/*#container {
-  text-align: center;
 
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0%;
-  transform: translateY(-50%);
+ion-header, ion-toolbar {
+  background-color: white;
+  height: 10%;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}*/
 
 .scroll-h {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+  margin: 5px 5px;
+  padding: 20px 5px;
+  -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
     display: none;
   }
 
   .item {
     display: inline-block;
+    background-color: white;
+    padding: 5px;
+    margin: 5px 3px;
+    color: black;
+    font-weight:500;
+    font-size:large;
+    border-radius: 20px;
   }
+
+  .item:active{
+    background-color: black;
+    color: white;
+  }
+}
+
+ion-card{
+  width: calc(100vw/2 - 10px);
+  max-height: calc(100vh/2 - 10px);
+  display:inline-block;
+  margin: 5px 5px;
+  border-radius: 20px;
+  box-shadow: none;
+  background-color: rgb(224, 224, 224);
+}
+
+.ver-mas{
+  margin: 5px;
+}
+
+.outer-block { 
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
 }
