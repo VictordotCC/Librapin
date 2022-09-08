@@ -1,56 +1,97 @@
 
 ion-header {
-    background-color: white;
-    height: 10%;
+  text-align: center;
+  background-color: white;
+  height: 10%;
+}
+
+.scroll-h {
+  text-align: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 5px 5px;
+  padding: 20px 5px;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
   }
-  
-  .scroll-h {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    margin: 5px 5px;
-    padding: 20px 5px;
-    -webkit-overflow-scrolling: touch;
-    &::-webkit-scrollbar {
-      display: none;
-    }
-  
-    .item {
-      display: inline-block;
-      background-color: white;
-      padding: 5px;
-      margin: 5px 3px;
-      color: black;
-      font-weight:500;
-      font-size:large;
-      border-radius: 20px;
-    }
-  
-    .item:active{
-      background-color: black;
-      color: white;
-    }
-  }
-  
-  ion-card{
-    width: calc(100vw/2 - 10px);
-    max-height: calc(100vh/2 - 10px);
-    display:inline-block;
-    margin: 5px 5px;
+
+  .item {
+    text-align: center;
+    display: inline-block;
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 5px 3px;
+    color: black;
+    font-weight:500;
+    font-size:large;
     border-radius: 20px;
-    box-shadow: none;
-    background-color: rgb(224, 224, 224);
   }
-  
-  .ver-mas{
-    margin: 5px;
+
+  .item:active{
+    background-color: #bbb;
+    color: white;
   }
-  
-  .outer-block { 
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-    -moz-column-gap: 1em;
-    -webkit-column-gap: 1em;
-    column-gap: 1em;
+}
+
+
+  ion-img {
+    border-radius: 20px;
+    border: 2px solid rgb(0, 182, 121);
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  ion-card {
+    display: block;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 182, 121);
+    text-align: center;
+    color: black;
+    background-color: aquamarine;
+    columns: 2;
+}
+
+ion-card-content {
+    display: inline-block;
+    border-radius: 20px;
+    margin: 3px;
+    border: 2px solid rgb(0, 182, 121);
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+ion-title {
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ion-text {
+  text-align: center;
+  margin-left: auto;
+}
+
+ion-icon {
+  color: yellow;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 1px;
+}
+
+ion-avatar {
+  border-radius: 20px;
+  border: 2px solid rgb(0, 182, 121);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 20px;
+  border: 1px solid black;
+}
