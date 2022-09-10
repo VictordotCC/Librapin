@@ -35,7 +35,6 @@ ion-header {
   }
 }
 
-
   ion-img {
     border-radius: 20px;
     border: 2px solid rgb(0, 182, 121);
@@ -44,14 +43,14 @@ ion-header {
   }
 
   ion-card {
-    border: 1px solid rgb(0, 182, 121);
+    box-shadow: inset;
     border-radius: 20px;
     background-color: white;
     columns: 2;
 }
 
 ion-card-content {
-  border: 1px solid rgb(0, 182, 121);
+  box-shadow: inset;
   border-radius: 20px;
   background-color: white;
   columns: 3;
@@ -62,7 +61,6 @@ ion-card-content {
   max-height: auto;
   padding: 3px;
   display: grid;
-  grid-gap: 1rem;
 }
 
 ion-toolbar {
@@ -89,6 +87,5 @@ ion-avatar {
 }
 
 img {
-  border-radius: 20px;
   columns: 2;
 }
