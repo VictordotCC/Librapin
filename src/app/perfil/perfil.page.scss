@@ -4,14 +4,13 @@ ion-header {
     max-width: 100%;
 }
 
-ion-avatar {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.avatar {
+    border: 2px solid goldenrod;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
-    height: 100px;
+    place-items: center;
+    border-radius: 50%;
 }
 
 ion-chip {
@@ -24,50 +23,32 @@ ion-chip {
     border-radius: 20px;
 }
 
-ion-title {
-    display: block;
+ion-icon {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+ion-text {
+    margin-left: 20px;
+    place-items: center;
     text-align: center;
 }
 
-ion-title-content {
+ion-title {
     display: block;
-    border: 1px solid black;
-    text-align: center;
+    border: 2px solid #bbb;
     border-radius: 20px;
-    margin-left: 20%;
-    margin-right:20%;
 }
 
 ion-card {
-    text-align: center;
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: auto;
+    display: inline-flex;
+    border: 1px solid #bbb;
     border-radius: 20px;
-    columns: 2;
-    margin-top: 0.5;
-    margin-bottom: 0.5;
-}
-
-ion-grid {
-    text-align: center;
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: auto;
-    height: auto;
-    border-radius: 20px;
-    columns: 2;
-}
-
-ion-img {
-    border-radius: 20px;
-    border: 2px solid rgb(0, 182, 121);
-    margin-left: middle;
-    margin-right: middle;
+    background-color: white;
 }
 
 img {
-    border-radius: 20px;;
+    display: flex;
+    place-items: center;
+    width: calc(100vw/2 - 10px);
 }
