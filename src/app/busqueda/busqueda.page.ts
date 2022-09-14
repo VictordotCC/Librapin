@@ -14,8 +14,11 @@ export class BusquedaPage implements OnInit {
 
   slideOptsOne = {
     initialSlide: 0,
-    slidesPerView: 1,
-    autoplay:true
+    slidesPerView: true,
+    autoplay:{
+      delay: 3000,
+      disableOnInteraction: false
+    } 
    };
 
   ngOnInit() {
