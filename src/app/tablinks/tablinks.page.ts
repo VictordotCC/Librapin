@@ -10,6 +10,8 @@ export class TablinksPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    //document.body.setAttribute('color-theme', 'dark')
+    //document.body.removeAttribute('color-theme')
   }
 
 }
