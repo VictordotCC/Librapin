@@ -2,7 +2,8 @@
   <ion-header>
     <ion-toolbar>
       <ion-icon name="notifications-outline"></ion-icon>
-      Perfil de usuario</ion-toolbar>
+      Perfil de usuario
+    </ion-toolbar>
   </ion-header>
 
 <ion-content>
@@ -10,83 +11,34 @@
   <div>
     <img class="avatar" src="https://alchetron.com/cdn/dio-brando-247c069d-8c56-4504-bd8c-bc5fe300145-resize-750.jpeg">
   </div>
-  <div class="ion-justify-content-center" style="text-align: center; padding-top: 20px;">
-    <ion-row>
-        <ion-title>Dio Brando</ion-title>
-    </ion-row>
+  <div class="ion-justify-content-center" style="text-align: center; margin: 10px">
+    <ion-title>Dio Brando</ion-title>
   </div>
-  <br>
-
-<br>
-  <ion-chip>
-    <ion-icon name="star-outline"></ion-icon>
-    Favoritos
-  </ion-chip>
-
-  <ion-text>Imagenes más recientes.</ion-text>
-
-  <ion-card>
+  <div class="ion-justify-content-center" style="text-align: center">
+    <button class="item">Creados</button>
+    <button class="item">Guardados</button>
+  </div>
+  
+  <ion-grid class="ion-text-center">
     <ion-row class="ion-justify-content-center">
-    <ion-col>
-      <div> 
-        <img src="https://pbs.twimg.com/media/Egx5KzMWAAEUx74.jpg" />
-      </div>
-    </ion-col>
-    <ion-col>
-      <div>
-        <img src="https://i.pinimg.com/550x/e6/09/3e/e6093e774b6a9e11392bcb55000d5cee.jpg" />
-      </div>
-    </ion-col>
-    <ion-col>
-      <div>
-        <img src="https://i.pinimg.com/564x/15/36/4f/15364fefbbb00078f83441837bce8939.jpg" />
-      </div>
-    </ion-col>
-  </ion-row>
-</ion-card>
+      <ion-col>
+        <ion-card> 
+          <img class="favs" src="https://pbs.twimg.com/media/Egx5KzMWAAEUx74.jpg" />
+          <img class="favs" src="https://i.pinimg.com/550x/e6/09/3e/e6093e774b6a9e11392bcb55000d5cee.jpg" />
+          <img class="favs" src="https://i.pinimg.com/564x/15/36/4f/15364fefbbb00078f83441837bce8939.jpg" />
+        </ion-card>
+        <h6>Imagenes más recientes</h6>
+      </ion-col>
 
-<ion-text>Imagenes que más te gustaron.</ion-text>
-
-<ion-card>
-  <ion-row class="ion-justify-content-center">
-  <ion-col>
-    <div> 
-      <img src="https://i.pinimg.com/564x/ec/29/2d/ec292dab79f6a0844deb41583650a34b.jpg" />
-    </div>
-  </ion-col>
-  <ion-col>
-    <div>
-      <img src="https://i.pinimg.com/236x/7d/b6/7a/7db67a990c1dab4ad17339adc18f7847--photo-poses-pixel-art.jpg" />
-    </div>
-  </ion-col>
-  <ion-col>
-    <div>
-      <img src="https://i.pinimg.com/474x/25/da/ed/25daed09d35bf9d913b2f9da55342dc9.jpg" />
-    </div>
-  </ion-col>
-</ion-row>
-</ion-card>
-
-<ion-text>Imagenes guardadas.</ion-text>
-
-<ion-card>
-  <ion-row class="ion-justify-content-center">
-  <ion-col>
-    <div> 
-      <img src="https://animeeverything.online/ezoimgfmt/i0.wp.com/animeeverything.online/wp-content/uploads/2022/01/dio-hands-on-hip-pose.jpg?resize=573%2C1024&ssl=1&ezimgfmt=rs:372x665/rscb2" />
-    </div>
-  </ion-col>
-  <ion-col>
-    <div>
-      <img src="https://i.pinimg.com/originals/c6/03/65/c60365a3bc2bfaf4628c0d1ba8a385e6.png" />
-    </div>
-  </ion-col>
-  <ion-col>
-    <div>
-      <img src="https://i.pinimg.com/originals/17/1d/7a/171d7ab12e92c88fbe4602e816b5c041.png" />
-    </div>
-  </ion-col>
-</ion-row>
-</ion-card>
+      <ion-col>
+        <ion-card> 
+          <img class="favs" src="https://i.pinimg.com/564x/ec/29/2d/ec292dab79f6a0844deb41583650a34b.jpg" />
+          <img class="favs" src="https://i.pinimg.com/236x/7d/b6/7a/7db67a990c1dab4ad17339adc18f7847--photo-poses-pixel-art.jpg" />
+          <img class="favs" src="https://i.pinimg.com/474x/25/da/ed/25daed09d35bf9d913b2f9da55342dc9.jpg" />
+        </ion-card>
+        <h6>Imagenes que te gustaron</h6>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
  
 </ion-content>

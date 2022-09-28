@@ -11,6 +11,13 @@ ion-header {
     margin-right: auto;
     place-items: center;
     border-radius: 50%;
+    width: calc(100vw/2);
+}
+
+ion-col {
+    height: 15vh;
+    position: relative;
+    margin-top: 5px;
 }
 
 ion-chip {
@@ -40,14 +47,31 @@ ion-title {
 }
 
 ion-card {
-    display: inline-flex;
+    display: inline-block;
     border: 1px solid #bbb;
     border-radius: 20px;
     background-color: white;
+    width: calc(100vw/2 - 15px);
 }
 
-img {
+.favs {
     display: flex;
     place-items: center;
-    width: calc(100vw/2 - 10px);
+    width: calc(100vw/7 - 10px);
 }
+
+.item {
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    margin: 5px 3px;
+    color: black;
+    font-weight:500;
+    font-size:large;
+    border-radius: 20px;
+  }
+
+.item:active{
+    background-color: black;
+    color: white;
+  }
