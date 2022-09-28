@@ -54,10 +54,15 @@ ion-card {
     width: calc(100vw/2 - 15px);
 }
 
+.contenedor {
+    border : 1px solid #bbb;
+    border-radius: 20px;
+}
+
 .favs {
-    display: flex;
-    place-items: center;
-    width: calc(100vw/7 - 10px);
+    object-fit: contain;
+    height: 15vh;
+    width: calc(100vw/2/3 - 10px);
 }
 
 .item {
