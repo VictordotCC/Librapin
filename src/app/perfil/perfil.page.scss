@@ -14,11 +14,6 @@ ion-header {
     width: calc(100vw/2);
 }
 
-ion-col {
-    height: 15vh;
-    position: relative;
-    margin-top: 5px;
-}
 
 ion-chip {
     font: unset;
@@ -54,6 +49,10 @@ ion-card {
     width: calc(100vw/2 - 15px);
 }
 
+ion-row {
+    margin-top: 10px;
+}
+
 .contenedor {
     border : 1px solid #bbb;
     border-radius: 20px;
@@ -62,7 +61,7 @@ ion-card {
 .favs {
     object-fit: contain;
     height: 15vh;
-    width: calc(100vw/2/3 - 10px);
+    width: calc(100vw/2/3 - 10px);  
 }
 
 .item {
